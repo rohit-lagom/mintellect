@@ -11,35 +11,34 @@ import murabba from '@/assets/images/products/murabba.jpg';
 const products = [
   {
     image: jaggery,
-    name: 'Organic Jaggery Products',
-    description: 'Naturally processed. Verified on-chain.',
+    name: 'Startup Innovations',
+    description: 'Raise capital through tokenized IP without diluting ownership.',
     href: '#',
   },
   {
     image: appleCider,
-    name: 'Organic Apple Cider',
-    description: 'Sourced from Punjab’s verified orchards.',
+    name: 'University Research',
+    description: 'Showcase and license research globally — even before the patent is granted.',
     href: '#',
   },
   {
     image: tea,
-    name: 'Organic Tea',
-    description: 'Backed by verifiable cultivation standards.',
+    name: 'Industrial R&D',
+    description: 'Access groundbreaking tech faster and reduce friction in acquisition.',
     href: '#',
   },
   {
     image: murabba,
-    name: 'Organic Murabbas',
-    description: 'Taste the heritage, trust the source.',
+    name: 'Investor Opportunities',
+    description: 'Back high-potential, verified innovations with on-chain transparency.',
     href: '#',
   },
 ];
-
 export default function OrganicProducts() {
   return (
     <section className="bg-[#242424] py-16 px-4 md:px-8 lg:px-16">
       <h2 className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12">
-        Organic Products, Verified On-Chain
+Patent Tokens. Global Impact.
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
