@@ -67,7 +67,7 @@ Patent Tokens. Global Impact.
           href="#"
           className="inline-block px-6 py-2 border border-white/30 text-white rounded-full text-sm hover:border-white transition"
         >
-          More Organic Products
+          More Patent Products
         </Link>
       </div>
     </section>
