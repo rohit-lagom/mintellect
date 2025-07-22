@@ -30,9 +30,9 @@ const leftImages = [left1, left2, left3, left4, left5, left6, left7];
 const rightImages = [right1, right2, right3, right4, right5, right6, right7];
 const mobileImages = [left2, left3, left4, left5, right2, right3, right4, right5, right6];
 const stats = [
-  { value: '1000+ certified', label: 'organic farmers' },
-  { value: '15+ years ', label: 'issuing organic certificates' },
-  { value: '100% publicly', label: 'verifiable certificates' },
+  { value: '1000+ certified', label: 'pending, now tokenized' },
+  { value: '100+ institutions', label: 'connected via Mintellect' },
+  { value: '21% higher growth', label: 'enabled for IP-backed startups' },
 ];
 
 export function Hero() {
@@ -126,20 +126,21 @@ export function Hero() {
       ))}
 
       <div className="text-center z-20 relative max-w-5xl mx-auto mt-24 2xl:mt-0 md:mt-0">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-extrabold leading-tight">
-          Trust <span className="text-purple-500">Organic</span>
+        <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-extrabold leading-tight">
+          Tokenizing  <span className="text-purple-500"> Patent Potential</span>
           <br className="hidden sm:block" />
-          <span className="text-purple-500">Verify</span> On-Chain
+          <span className="text-purple-500"> Accelerate Invention.</span>  Amplify Impact.
+
         </h1>
 
-        <p className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          Every organic certificate from Unati is now minted as an NFT — verifiable, immutable, and publicly accessible, bringing full transparency to every product.
+        <p className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        Every year, tens of thousands of promising innovations in India are locked in a 3–5 year patent approval limbo. During this period, ideas that could transform industries and lives sit idle. Startups stall. Research stagnates. Investments hesitate. And progress halts.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
-          <Button onClick={() => setVerifyModalOpen(true)}>Verify Certificate</Button>
+          <Button onClick={() => setVerifyModalOpen(true)}>Tokenize Patent</Button>
           <Button onClick={() => router.push('/view')}>
-  Certified Products
+  Explore Patents
             </Button>
         </div>
 

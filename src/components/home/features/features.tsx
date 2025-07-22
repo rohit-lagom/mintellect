@@ -15,36 +15,36 @@ import scale from '@/assets/images/features/instant-search.png';
 
 const features = [
   {
-    title: 'Organic NFT Certificates',
+    title: 'Verified Patent NFTs',
     description:
-      'Mint verifiable credentials directly on-chain with farmer ID, standards, and validity.',
+      'Mint pre-grant patent applications on-chain as NFTs with full inventor metadata and verification status.',
     href: '#',
-    bg: 'from-purple-500 to-indigo-500',
+    bg: 'from-blue-500 to-indigo-600',
     image: certificate,
   },
   {
-    title: 'Public Verification Portal',
+    title: 'Fractional Usage Tokens',
     description:
-      'Instantly verify any certificate by ID, farmer name, or product.',
+      'Enable programmable, fractional usage rights through ERC-20 tokens — embedded in smart contracts.',
     href: '#',
-    bg: 'from-pink-400 to-orange-400',
+    bg: 'from-purple-500 to-pink-600',
     image: verification,
   },
   {
-    title: 'Audit-proof Traceability',
+    title: 'Public Discovery Portal',
     description:
-      'Track every change on-chain — trusted by regulators, buyers, and consumers.',
+      'Explore tokenized patents by inventor, institution, category, or keywords — in real time.',
     href: '#',
-    bg: 'from-green-400 to-blue-500',
-    image: audit,
+    bg: 'from-green-500 to-emerald-600',
+    image: scale,
   },
   {
-    title: 'Instant Search',
+    title: 'AI + Smart Licensing',
     description:
-      'Immutable records with high-speed search for rapid access and scalability.',
+      'Instantly match innovations with partners, licensees, or commercialization pathways using AI.',
     href: '#',
-    bg: 'from-blue-400 to-purple-600',
-    image: scale,
+    bg: 'from-yellow-500 to-orange-500',
+    image: audit, 
   },
 ];
 
@@ -53,7 +53,7 @@ const Features = () => {
     <section className="relative bg-[#242424] px-4 sm:px-6 md:px-8 py-16 sm:py-24 lg:py-32">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-white text-3xl md:text-5xl font-extrabold mb-12 text-center">
-          What Makes Our Certificates Different
+What Makes Our IP NFTs Different
         </h2>
 
         {/* Mobile View (Swiper) */}
