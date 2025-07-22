@@ -3,8 +3,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
-// import jaggery from '@/assets/images/products/jaggery.jpg';
-// import appleCider from '@/assets/images/products/apple-cider.jpg';
 import tea from '@/assets/images/products/tea.jpg';
 import murabba from '@/assets/images/products/murabba.jpg';
 import DottedBG from '@/assets/images/DottedBG.png';
@@ -40,7 +38,6 @@ const Supporters = () => {
     };
 
     const animationId = requestAnimationFrame(animate);
-
     return () => cancelAnimationFrame(animationId);
   }, [isHovered]);
 
@@ -57,10 +54,10 @@ const Supporters = () => {
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-10 overflow-hidden">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
-Backed by the Best in IP & Innovation
+            Backed by the Best in IP & Innovation
           </h2>
           <p className="text-lg md:text-xl text-gray-400">
-Led by India's top patent offices, incubators, and academic institutions.
+            Led by India&#39;s top patent offices, incubators, and academic institutions.
           </p>
         </div>
 
