@@ -57,10 +57,10 @@ const Supporters = () => {
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-10 overflow-hidden">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Backed By The Best In Organic
+Backed by the Best in IP & Innovation
           </h2>
           <p className="text-lg md:text-xl text-gray-400">
-            Led by India’s most trusted cooperatives and certifying bodies.
+Led by India's top patent offices, incubators, and academic institutions.
           </p>
         </div>
 
