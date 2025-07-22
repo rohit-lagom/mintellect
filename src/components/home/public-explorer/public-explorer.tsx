@@ -16,17 +16,17 @@ interface Card {
 
 const cards: Card[] = [
   {
-    title: 'Explore Certificates',
+    title: 'Explore Patents',
     icon: ExploreIcon,
     hoverBg: 'from-green-500 to-emerald-600',
   },
   {
-    title: 'Search Certificates',
+    title: 'Search IP Tokens',
     icon: SearchIcon,
     hoverBg: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'Audit-trail',
+    title: 'Licensing Dashboard',
     icon: AuditIcon,
     hoverBg: 'from-purple-600 to-fuchsia-600',
   },
@@ -104,11 +104,11 @@ export default function PublicExplorerSection() {
         }}
       >
         <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-8">
-          Know Your Farmer.<br className="hidden sm:block" /> Verify The Source.
+          Know the Idea.<br className="hidden sm:block" /> Trust the Source.
         </h2>
 
         <Button href="#" className="bg-green-600 hover:bg-green-700">
-          Launch Public Explorer
+Verify Innovation. Accelerate Impact.
         </Button>
       </div>
 
