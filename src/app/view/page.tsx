@@ -40,10 +40,10 @@ export default function ViewPinsPage() {
     <section className="min-h-screen bg-[#242424] text-white py-20 px-6 sm:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">
-          🌿 Certified Products on Chain
+          🌿 Certified Patents on Chain
         </h1>
         <p className="text-gray-300 text-lg sm:text-xl max-w-3xl mx-auto mb-12">
-          Browse the collection of certified organic NFTs minted and pinned to IPFS for transparency and public verification.
+          Browse the collection of certified Patents NFTs minted and pinned to IPFS for transparency and public verification.
         </p>
 
         {loading ? (
