@@ -19,8 +19,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Organic NFT',
-  description: 'Minimal, Clean NFT Platform',
+  title: 'Mintellect NFTs',
+  description: 'Tokenizing Patent Potential',
 };
 
 export default async function RootLayout({
