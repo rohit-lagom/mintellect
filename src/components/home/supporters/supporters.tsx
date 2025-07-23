@@ -3,8 +3,11 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
-import tea from '@/assets/images/products/tea.jpg';
-import murabba from '@/assets/images/products/murabba.jpg';
+import startup from '@/assets/images/products/startup.jpg';
+import university from '@/assets/images/products/university.jpg';
+import research from '@/assets/images/products/research.jpg';
+import investor from '@/assets/images/products/investor.jpg';
+
 import DottedBG from '@/assets/images/DottedBG.png';
 
 const Supporters = () => {
@@ -12,10 +15,10 @@ const Supporters = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const supporterLogos = [
-    { src: tea, alt: 'Organic Certifier A', url: '#' },
-    { src: murabba, alt: 'Organic Certifier B', url: '#' },
-    { src: tea, alt: 'Organic Certifier C', url: '#' },
-    { src: murabba, alt: 'Organic Certifier D', url: '#' },
+    { src: startup, alt: 'Organic Certifier A', url: '#' },
+    { src: university, alt: 'Organic Certifier B', url: '#' },
+    { src: research, alt: 'Organic Certifier C', url: '#' },
+    { src: investor, alt: 'Organic Certifier D', url: '#' },
   ];
 
   const scrollingLogos = [...supporterLogos, ...supporterLogos];
