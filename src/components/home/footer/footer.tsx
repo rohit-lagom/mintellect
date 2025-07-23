@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '@/assets/images/Logo.png';
+import Logo from '@/assets/images/NavLogo.png';
 import { Twitter, Linkedin, BookOpen } from 'lucide-react';
 
 const tokenCategories = [
@@ -33,7 +33,7 @@ export function Footer() {
         {/* Logo Section */}
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2 pb-10">
-            <Image src={Logo} alt="Mintellect Logo" height={272} className="rounded-md" />
+            <Image src={Logo} alt="Mintellect Logo" height={100} className="rounded-md" />
            
           </div>
         </div>
