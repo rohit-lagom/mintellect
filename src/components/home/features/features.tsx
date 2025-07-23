@@ -8,10 +8,10 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import audit from '@/assets/images/features/audit.png';
-import certificate from '@/assets/images/features/certificate.png';
-import verification from '@/assets/images/features/verification.png';
-import scale from '@/assets/images/features/instant-search.png';
+import smart from '@/assets/images/features/smart.png';
+import patent from '@/assets/images/features/patent.png';
+import fractional from '@/assets/images/features/fractional.png';
+import search from '@/assets/images/features/instant-search.png';
 
 const features = [
   {
@@ -20,7 +20,7 @@ const features = [
       'Mint pre-grant patent applications on-chain as NFTs with full inventor metadata and verification status.',
     href: '#',
     bg: 'from-blue-500 to-indigo-600',
-    image: certificate,
+    image: patent,
   },
   {
     title: 'Fractional Usage Tokens',
@@ -28,7 +28,7 @@ const features = [
       'Enable programmable, fractional usage rights through ERC-20 tokens — embedded in smart contracts.',
     href: '#',
     bg: 'from-purple-500 to-pink-600',
-    image: verification,
+    image: fractional,
   },
   {
     title: 'Public Discovery Portal',
@@ -36,7 +36,7 @@ const features = [
       'Explore tokenized patents by inventor, institution, category, or keywords — in real time.',
     href: '#',
     bg: 'from-green-500 to-emerald-600',
-    image: scale,
+    image: search,
   },
   {
     title: 'AI + Smart Licensing',
@@ -44,7 +44,7 @@ const features = [
       'Instantly match innovations with partners, licensees, or commercialization pathways using AI.',
     href: '#',
     bg: 'from-yellow-500 to-orange-500',
-    image: audit, 
+    image: smart, 
   },
 ];
 
