@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import smart from '@/assets/images/features/smart.png';
 import patent from '@/assets/images/features/patent.png';
-import fractional from '@/assets/images/features/fractional.png';
+import fraction from '@/assets/images/features/fraction.png';
 import search from '@/assets/images/features/instant-search.png';
 
 const features = [
@@ -28,7 +28,7 @@ const features = [
       'Enable programmable, fractional usage rights through ERC-20 tokens — embedded in smart contracts.',
     href: '#',
     bg: 'from-purple-500 to-pink-600',
-    image: fractional,
+    image: fraction,
   },
   {
     title: 'Public Discovery Portal',
