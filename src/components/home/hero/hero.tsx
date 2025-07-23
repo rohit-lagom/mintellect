@@ -30,9 +30,9 @@ const leftImages = [left1, left2, left3, left4, left5, left6, left7];
 const rightImages = [right1, right2, right3, right4, right5, right6, right7];
 const mobileImages = [left2, left3, left4, left5, right2, right3, right4, right5, right6];
 const stats = [
-  { value: '1000+ certified', label: 'pending, now tokenized' },
-  { value: '100+ institutions', label: 'connected via Mintellect' },
-  { value: '21% higher growth', label: 'enabled for IP-backed startups' },
+  { value: '1000+ Patents', label: 'patent assets' },
+  { value: '100+ Institutions', label: 'onboarded' },
+  { value: '21% Higher', label: 'startup growth' },
 ];
 
 export function Hero() {
@@ -126,15 +126,21 @@ export function Hero() {
       ))}
 
       <div className="text-center z-20 relative max-w-5xl mx-auto mt-24 2xl:mt-0 md:mt-0">
-        <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-extrabold leading-tight">
-          Tokenizing  <span className="text-purple-500"> Patent Potential</span>
-          <br className="hidden sm:block" />
-          <span className="text-purple-500"> Accelerate Invention.</span>  Amplify Impact.
+<div>
+  <h1 className="text-2xl sm:text-5xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-white">
+    Tokenizing <span className="text-purple-600">Patent Potential.</span>
+  </h1>
+  <h1 className="text-2xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl font-extrabold leading-tight tracking-tight text-white">
+    Accelerate <span className="text-purple-600">Invention.</span> <br />
+     <span className="text-purple-600 ">Amplify</span> Impact.
+  </h1>
+</div>
 
-        </h1>
+
+
 
         <p className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-        Every year, tens of thousands of promising innovations in India are locked in a 3–5 year patent approval limbo. During this period, ideas that could transform industries and lives sit idle. Startups stall. Research stagnates. Investments hesitate. And progress halts.
+      Thousands of innovations in India are stuck in years-long patent limbo. Mintellect unlocks their value — turning pending patents into on-chain assets.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
