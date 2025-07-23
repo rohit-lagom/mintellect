@@ -3,32 +3,32 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import jaggery from '@/assets/images/products/jaggery.jpg';
-import appleCider from '@/assets/images/products/apple-cider.jpg';
-import tea from '@/assets/images/products/tea.jpg';
-import murabba from '@/assets/images/products/murabba.jpg';
+import startup from '@/assets/images/products/startup.jpg';
+import university from '@/assets/images/products/university.jpg';
+import research from '@/assets/images/products/research.jpg';
+import investor from '@/assets/images/products/investor.jpg';
 
 const products = [
   {
-    image: jaggery,
+    image: startup,
     name: 'Startup Innovations',
     description: 'Raise capital through tokenized IP without diluting ownership.',
     href: '#',
   },
   {
-    image: appleCider,
+    image: university,
     name: 'University Research',
     description: 'Showcase and license research globally — even before the patent is granted.',
     href: '#',
   },
   {
-    image: tea,
+    image: research,
     name: 'Industrial R&D',
     description: 'Access groundbreaking tech faster and reduce friction in acquisition.',
     href: '#',
   },
   {
-    image: murabba,
+    image: investor,
     name: 'Investor Opportunities',
     description: 'Back high-potential, verified innovations with on-chain transparency.',
     href: '#',
